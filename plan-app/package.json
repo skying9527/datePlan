@@ -1,0 +1,28 @@
+{
+  "name": "plan-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "拾光任务 —— 任务规划与记录网页（老黄历皮肤 · 泳道式时间线）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "node scripts/start.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "pinia": "^2.2.6",
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^25.0.1",
+    "vite": "^6.0.5",
+    "vite-plugin-singlefile": "^2.1.0",
+    "vitest": "^2.1.8"
+  }
+}

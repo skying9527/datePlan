@@ -1,0 +1,6 @@
+# 依赖与缓存（可重新生成，不入库）
+plan-app/node_modules/
+plan-app/.npm-cache/
+
+# 日志
+*.log

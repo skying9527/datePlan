@@ -1,0 +1,44 @@
+/* ============================================================
+   拾光任务 · 设计 Tokens（老黄历皮肤）
+   与《设计方案》§10 一致；全局唯一取色/字体来源。
+   ============================================================ */
+:root{
+  /* 纸感底色与表面 */
+  --bg:#F2E8D0;
+  --surface:#FBF4E3;
+  --surface-2:#F1E7CE;
+  /* 边框 */
+  --border:#CBB98A;
+  --border-strong:#B9A26B;
+  /* 文字三级 */
+  --text:#3B362C;
+  --text-soft:#6E6350;
+  --text-faint:#94876B;
+  /* 主色：朱砂红 */
+  --primary:#A03028;
+  --primary-soft:#EEDAD4;
+  --on-primary:#FFF8EC;
+  /* 完成/成功 */
+  --accent:#2E7D5B;
+  --accent-soft:#E2EFE7;
+  /* 危险 */
+  --danger:#A03028;
+  --danger-soft:#F6E3E0;
+  /* 优先级：紧急红 / 重要橙 / 普通蓝灰 */
+  --urgent:#B33A2E;
+  --important:#C98A1B;
+  --normal:#5E748C;
+  /* 宜 / 忌 */
+  --yi:#A03028;
+  --ji:#6B6454;
+  /* 形状与投影 */
+  --radius:10px;
+  --radius-sm:7.5px;
+  --shadow:0 3.75px 12.5px rgba(90,70,30,.18);
+  /* 字体 */
+  --font-head:'Kaiti SC','STKaiti','KaiTi','楷体','Noto Serif SC',serif;
+  --font-body:'Songti SC','STSong','SimSun','Noto Serif SC',serif;
+  /* 弹幕舞台 / 顶栏 */
+  --stage-bg:#EFE3C4;
+  --header-bg:#F7EFDA;
+}
